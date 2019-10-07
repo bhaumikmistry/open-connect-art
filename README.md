@@ -1,4 +1,4 @@
-
+<img src="openconnectart.png" width="200">
 
 # Open connect ART
 
