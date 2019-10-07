@@ -1,4 +1,4 @@
-
+<img src="openconnectart.png" width="200">
 
 # Open connect ART
 
@@ -10,7 +10,7 @@ Anyone who wished to learn how to create a pull request for a project on GitHub 
 
 ## Contributing  
 
-In order to contribute a tile to the canvas you'll have to create a [pull request](https://opensource.guide/how-to-contribute/#opening-a-pull-request). please check the [Contributing guide](CONTRIBUTIN.md) 
+In order to contribute a tile to the canvas you'll have to create a [pull request](https://opensource.guide/how-to-contribute/#opening-a-pull-request). please check the [Contributing guide](https://github.com/bhaumikmistry/open-connect-art/blob/master/CONTRIBUTING.md) 
 
 ## Code of conduct 
 
