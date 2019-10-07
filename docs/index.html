@@ -239,8 +239,9 @@ body {
 </body>
 <script>
   function darkMode() {
+    var divColumn = document.getElementsByClassName("column");
     $("body").css("background-color", "black");
-    $("div").css("filter", "invert(1) ");
+    $(divColumn).css("filter", "invert(1) ");
     $("button").css("background-color", "black");
     $("button").css("color", "white");
   }
