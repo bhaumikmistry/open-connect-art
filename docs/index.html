@@ -73,21 +73,29 @@ body {
   width:50%;
 }
 
+/* Logo */
+
+.logo {
+  margin: auto;
+  width:200px;
+  height:200px;
+}
+
+@media (max-width: 768px) {
+  .logo {
+    margin: auto;
+    width: 100px;
+    height: 100px;
+  }
+}
+
 </style>
 </head>
 <body>
 
 <!-- Header -->
 <div class="header" id="myHeader">
-  <table style="text-align: center; margin:auto;">
-    <th>
-      <img src="src/openconnectart.png" style="width:200px;height:200px; padding-right: 10px;" alt="Open Connect Art">
-      <img src="src/openconnectart.png" style="width:200px; height:200px; padding-right: 10px;" alt="Open Connect Art">
-    </th>
-    <th>
-      <h1 style="padding-left: 10px;">Image gird</h1>
-    </th>
-  </table>
+      <img src="src/openconnectart.png" class="logo" alt="Open Connect Art">
 </div>
 
 <!-- Photo Grid -->
