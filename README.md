@@ -3,6 +3,8 @@
 ![GitHub Hacktoberfest combined status](https://img.shields.io/github/hacktoberfest/2019/bhaumikmistry/open-connect-art?style=plastic)
 ![GitHub closed pull requests](https://img.shields.io/github/issues-pr-closed/bhaumikmistry/open-connect-art?color=gree&style=plastic)
 ![GitHub forks](https://img.shields.io/github/forks/bhaumikmistry/open-connect-art?color=aqua&label=open-connect-art%20Forks&style=plastic)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)  
+`[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)`
 
 # Open connect ART
 
@@ -19,3 +21,8 @@ In order to contribute a tile to the canvas you'll have to create a [pull reques
 ## Code of conduct 
 
 The goal of this project is to complete the canvas in highly respectful and fun manner. 
+
+## MIT
+### The MIT License
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)  
+`[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)`
