@@ -1,7 +1,7 @@
 <img src="docs/src/openconnectart.png" width="200">
 
 ![GitHub Hacktoberfest combined status](https://img.shields.io/github/hacktoberfest/2019/bhaumikmistry/open-connect-art?style=plastic)
-![GitHub closed pull requests](https://img.shields.io/github/issues-pr-closed/bhaumikmistry/open-connect-art?color=light%20green)
+![GitHub closed pull requests](https://img.shields.io/github/issues-pr-closed/bhaumikmistry/open-connect-art?color=gree&style=plastic)
 ![GitHub forks](https://img.shields.io/github/forks/bhaumikmistry/open-connect-art?color=aqua&label=open-connect-art%20Forks&style=plastic)
 
 # Open connect ART
