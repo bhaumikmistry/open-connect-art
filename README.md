@@ -1,5 +1,9 @@
 <img src="docs/src/openconnectart.png" width="200">
 
+![GitHub Hacktoberfest combined status](https://img.shields.io/github/hacktoberfest/2019/bhaumikmistry/open-connect-art?style=plastic)
+![GitHub closed pull requests](https://img.shields.io/github/issues-pr-closed/bhaumikmistry/open-connect-art?color=light%20green)
+![GitHub forks](https://img.shields.io/github/forks/bhaumikmistry/open-connect-art?color=aqua&label=open-connect-art%20Forks&style=plastic)
+
 # Open connect ART
 
 This is an ART project to teach you how to contribute and make use of an opportunity to use art and engineering to create a master piece.
