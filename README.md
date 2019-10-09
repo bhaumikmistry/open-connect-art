@@ -21,5 +21,5 @@ In order to contribute a tile to the canvas you'll have to create a [pull reques
 
 The goal of this project is to complete the canvas in highly respectful and fun manner. 
 
-##License
+## License
 MIT
