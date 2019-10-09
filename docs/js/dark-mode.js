@@ -10,3 +10,22 @@
     row.classList.toggle("night-mode");
     h1.classList.toggle("night-mode");
   };
+
+$("#nightCat").hide();
+    $("#dayCat").show();
+     //$("#nightCat").hide();
+  $("#day-night").click(function(){
+    //$("#dayCat").hide();
+    
+    //$("#nightCat").show();
+    if($("#nightCat").toggle()===true)
+    {
+      $("#nightCat").show();
+      $("#dayCat").hide();
+    }
+   else if($("#dayCat").toggle()===false){
+      $("#dayCat").show();
+      $("#nightCat").hide();
+      
+    }
+  });
