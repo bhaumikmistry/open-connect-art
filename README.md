@@ -13,6 +13,12 @@ Anyone who wished to learn how to create a pull request for a project on GitHub 
 * You will be able to create only 1 PR for the tile that is empty.
 * The second PR should be created if your neighboring tile does not match and it a dead lock or a mismatch, this way you can ask other contributor to collaborate and fix the dead lock.
 
+### Options for tiles
+<img src="docs/src/empty_cell.png" width="50"> <img src="docs/src/plus.png" width="50"> <img src="docs/src/quater_0.png" width="50"> <img src="docs/src/quater_90.png" width="50"> <img src="docs/src/quater_180.png" width="50"> <img src="docs/src/quater_270.png" width="50"> <img src="docs/src/right_angle_0.png" width="50"> <img src="docs/src/right_angle_90.png" width="50"> <img src="docs/src/right_angle_180.png" width="50"> <img src="docs/src/right_angle_270.png" width="50"> <img src="docs/src/start_end_0.png" width="50"> <img src="docs/src/start_end_90.png" width="50"> <img src="docs/src/start_end_180.png" width="50"> <img src="docs/src/start_end_270.png" width="50"> <img src="docs/src/straight_0.png" width="50"> <img src="docs/src/straight_90.png" width="50"> <img src="docs/src/t_0.png" width="50"> <img src="docs/src/t_90.png" width="50"> <img src="docs/src/t_180.png" width="50"> <img src="docs/src/t_270.png" width="50">
+
+
+
+
 ## Contributing  
 
 In order to contribute a tile to the canvas you'll have to create a [pull request](https://opensource.guide/how-to-contribute/#opening-a-pull-request). please check the [Contributing guide](https://github.com/bhaumikmistry/open-connect-art/blob/master/CONTRIBUTING.md) 
