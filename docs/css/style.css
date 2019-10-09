@@ -149,3 +149,7 @@ body.night-mode {
 	margin-bottom: 5px;
 	vertical-align: middle;
 }
+
+.ribbon {
+  position: absolute; top: 0; border: 0; right: 0;
+}
