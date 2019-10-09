@@ -9,4 +9,5 @@ nightModeToggleButton.onclick = function() {
   body.classList.toggle("night-mode");
   row.classList.toggle("night-mode");
   h1.classList.toggle("night-mode");
+  img.classList.toggle("night-mode");
 };

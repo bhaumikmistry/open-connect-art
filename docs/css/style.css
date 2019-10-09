@@ -128,8 +128,12 @@ body {
   background-color: yellow;
 }
 
+.row-parent.night-mode img {
+  filter: brightness(0) invert(1);
+}
+
 .row-parent.night-mode img:hover {
-  /* filter: brightness(0) invert(1); */
+  filter: none;
   background-color: #ff80aa !important;
 }
 
