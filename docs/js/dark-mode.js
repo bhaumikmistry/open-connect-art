@@ -11,3 +11,19 @@ nightModeToggleButton.onclick = function() {
   h1.classList.toggle("night-mode");
   img.classList.toggle("night-mode");
 };
+
+$("#nightCat").hide();
+$("#dayCat").show();
+
+$("#day-night").click(function(){
+  if($("#nightCat").toggle()===true)
+  {
+    $("#nightCat").show();
+    $("#dayCat").hide();
+  }
+  else if($("#dayCat").toggle()===false){
+    $("#dayCat").show();
+    $("#nightCat").hide();
+    
+  }
+});
