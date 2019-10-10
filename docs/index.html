@@ -357,18 +357,6 @@
 </div>
 
 
-    [].map.call(document.querySelectorAll(".row-parent .column img"), function(
-      el
-    ) {
-      el.onmouseenter = function() {
-        let title = el.getAttribute("title");
-        span.textContent = "@" + title;
-      };
-
-      el.onmouseleave = function() {
-        let title = el.getAttribute("title");
-        span.textContent = "";
-      };
-    });
+    
   </script>
 </html>

@@ -13,3 +13,14 @@ nightModeToggleButton.onclick = function() {
   h1.classList.toggle("night-mode");
   img.classList.toggle("night-mode");
 };
+
+[].map.call(document.querySelectorAll(".row-parent .column img"), function(el) {
+  el.onmouseenter = function() {
+    let title = el.getAttribute("title");
+    span.textContent = "@" + title;
+  };
+
+  el.onmouseleave = function() {
+    span.textContent = "";
+  };
+});
