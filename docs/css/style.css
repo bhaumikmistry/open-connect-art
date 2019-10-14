@@ -205,3 +205,8 @@ body.night-mode {
 .column:first-child {
   border-left: solid 10px black;
 }
+
+.contributor {
+  min-height: 50px;
+  text-align: center;
+}
