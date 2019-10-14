@@ -38,6 +38,7 @@ body {
   flex-wrap: wrap;
   padding: 0 4px;
   margin: 0 auto;
+  height: 100%;
 }
 
 .row {
@@ -164,4 +165,30 @@ body.night-mode {
 
 .ribbon {
   position: absolute; top: 0; border: 0; right: 0;
+}
+
+.menu-bar > #wrapperbutton{
+  text-align: center;
+  height: 60px;
+}
+
+.button-main
+{
+  width: 100px;
+  height: 40px;
+  border-radius: 4px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+.button1{
+  background-color: Transparent;
+  color: gray; 
+  border: 2px solid gray;
+}
+
+.button1:hover {
+  background-color: #B4F8C8;
+  color: black;
+  border: 2px solid #B4F8C8;
 }
