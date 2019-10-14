@@ -194,19 +194,24 @@ body.night-mode {
 }
 
 .column {
-  border-top: solid 10px black;
-  border-bottom: solid 10px black;
+  border-top: solid 5px rgb(125, 125, 125);
+  border-bottom: solid 5px rgb(125, 125, 125);
 }
 
 .column:last-child {
-  border-right: solid 10px black;
+  border-right: solid 5px rgb(125, 125, 125);
 }
 
 .column:first-child {
-  border-left: solid 10px black;
+  border-left: solid 5px rgb(125, 125, 125);
 }
 
 .contributor {
   min-height: 50px;
   text-align: center;
+  color: #f94a66;
+  font-size: 20px;
+  font-style: bold;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
 }

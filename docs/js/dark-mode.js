@@ -3,6 +3,7 @@ var h1 = document.querySelector("h1");
 var h3 = document.querySelector("h3");
 var row = document.querySelector(".row-parent");
 var body = document.querySelector("body");
+var column = document.querySelector("column");
 
 nightModeToggleButton.onclick = function() {
   nightModeToggleButton.classList.toggle("night-mode");
@@ -10,6 +11,7 @@ nightModeToggleButton.onclick = function() {
   row.classList.toggle("night-mode");
   h1.classList.toggle("night-mode");
   img.classList.toggle("night-mode");
+  column.classList.toggle("night-mode");
 };
 
 $("#nightCat").hide();

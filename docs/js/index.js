@@ -10,6 +10,9 @@ function changeContributor(contributorName) {
 function clearContributor(){
   contributor.innerHTML = "";
 }
+
+clearContributor();
+
 for (var i = 0; i < columns.length; i++) {
   var column = columns[i];
   if (column.children.length > 0) {
