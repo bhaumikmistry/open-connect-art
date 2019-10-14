@@ -55,7 +55,6 @@ body {
   -ms-flex: 8%; /* IE 10 */
   flex: 8%;
   max-width: 65px;
-  max-height: 65px;
   padding: 0 0px;
 }
 
@@ -191,4 +190,17 @@ body.night-mode {
   background-color: #B4F8C8;
   color: black;
   border: 2px solid #B4F8C8;
+}
+
+.column {
+  border-top: solid 10px black;
+  border-bottom: solid 10px black;
+}
+
+.column:last-child {
+  border-right: solid 10px black;
+}
+
+.column:first-child {
+  border-left: solid 10px black;
 }
