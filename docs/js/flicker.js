@@ -4,12 +4,22 @@
 // Calls setTileBackgrounds
 function makeItFlicker(event) {
 	// Set the background color of the button to yellow
+	let row = document.querySelector(".row-parent")
+	if (nightModeEnabled(row)) {
+		// This only works in light mode
+		row.classList.toggle("night-mode")
+	}
 	let button = event.target
 	let bgColor = button.style.backgroundColor
 	let textColor = button.style.color
 	button.style.backgroundColor = "yellow"
 	button.style.color = "#1c1b1b"
+	button.classList.add("enabled")
 	setTileBackgrounds()
+}
+
+function nightModeEnabled(rowParent) {
+	return rowParent.classList.value.match(/.*night-mode.*/)
 }
 
 function setTileBackgrounds() {
