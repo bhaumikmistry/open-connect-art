@@ -1,29 +1,26 @@
-var nightModeToggleButton = document.querySelector(".nightmode");
-var h1 = document.querySelector("h1");
-var h3 = document.querySelector("h3");
-var row = document.querySelector(".row-parent");
-var body = document.querySelector("body");
+var nightModeToggleButton = document.querySelector(".nightmode")
+var row = document.querySelector(".row-parent")
+var body = document.querySelector("body")
 
 nightModeToggleButton.onclick = function() {
-  nightModeToggleButton.classList.toggle("night-mode");
-  body.classList.toggle("night-mode");
-  row.classList.toggle("night-mode");
-  h1.classList.toggle("night-mode");
-  img.classList.toggle("night-mode");
-};
+	nightModeToggleButton.classList.toggle("night-mode")
+	body.classList.toggle("night-mode")
+	// If flicker is enabled, don't toggle night-mode on row
+	let flickerButton = document.getElementById("flicker")
+	if (!flickerButton.classList.value.match(/enabled/)) {
+		row.classList.toggle("night-mode")
+	}
+}
 
-$("#nightCat").hide();
-$("#dayCat").show();
+$("#nightCat").hide()
+$("#dayCat").show()
 
-$("#day-night").click(function(){
-  if($("#nightCat").toggle()===true)
-  {
-    $("#nightCat").show();
-    $("#dayCat").hide();
-  }
-  else if($("#dayCat").toggle()===false){
-    $("#dayCat").show();
-    $("#nightCat").hide();
-    
-  }
-});
+$("#day-night").click(function() {
+	if ($("#nightCat").toggle() === true) {
+		$("#nightCat").show()
+		$("#dayCat").hide()
+	} else if ($("#dayCat").toggle() === false) {
+		$("#dayCat").show()
+		$("#nightCat").hide()
+	}
+})

@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  outline: none;
 }
 
 .footer {
@@ -55,7 +56,6 @@ body {
   -ms-flex: 8%; /* IE 10 */
   flex: 8%;
   max-width: 65px;
-  max-height: 65px;
   padding: 0 0px;
 }
 
@@ -192,3 +192,28 @@ body.night-mode {
   color: black;
   border: 2px solid #B4F8C8;
 }
+
+.column {
+  border-top: solid 5px rgb(125, 125, 125);
+  border-bottom: solid 5px rgb(125, 125, 125);
+}
+
+.column:last-child {
+  border-right: solid 5px rgb(125, 125, 125);
+}
+
+.column:first-child {
+  border-left: solid 5px rgb(125, 125, 125);
+}
+
+.contributor {
+  height: 50px;
+  text-align: center;
+  color: #f94a66;
+  font-size: 20px;
+  font-style: bold;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+
