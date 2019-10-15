@@ -74,3 +74,8 @@ document.getElementsByClassName('button-main')[3].addEventListener('click', func
     })
   });
 })
+
+document.getElementsByClassName('button-main')[4].addEventListener('click', function () {
+  this.style.backgroundColor = 'yellow';
+  location.reload();
+})
