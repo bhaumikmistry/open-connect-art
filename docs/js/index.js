@@ -56,8 +56,21 @@ document.getElementsByClassName('button-main')[2].addEventListener('click', func
   squares.forEach(element => {
     element.src = 'src/' + images[Math.floor(Math.random() * images.length)];
   });
-  console.log(squares);
 })
 
 
-
+document.getElementsByClassName('button-main')[3].addEventListener('click', function () {
+  this.style.backgroundColor = 'yellow';
+  var squares = document.querySelectorAll('[title]');
+  squares.forEach(element => {
+    element.animate([
+      { transform: 'rotate('+ Math.floor(Math.random() * 360) +'deg)' },
+      { transform: 'rotate('+ Math.floor(Math.random() * 360) +'deg)' },
+      { transform: 'rotate('+ Math.floor(Math.random() * 360) +'deg)' },
+      { transform: 'rotate('+ Math.floor(Math.random() * 360) +'deg)' },
+      { transform: 'rotate('+ Math.floor(Math.random() * 360) +'deg)' }
+    ],{
+      duration: 5000,
+    })
+  });
+})
