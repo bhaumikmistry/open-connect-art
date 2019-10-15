@@ -83,8 +83,8 @@ body {
   background-color: #ddd;
 }
 
-.btn.active {
-  background-color: #666;
+.btn:active {
+  background-color: yellow;
   color: white;
 }
 
@@ -164,16 +164,18 @@ body.night-mode {
 }
 
 .ribbon {
-  position: absolute; top: 0; border: 0; right: 0;
+  position: absolute;
+  top: 0;
+  border: 0;
+  right: 0;
 }
 
-.menu-bar > #wrapperbutton{
+.menu-bar > #wrapperbutton {
   text-align: center;
   height: 60px;
 }
 
-.button-main
-{
+.button-main {
   width: 100px;
   height: 40px;
   border-radius: 4px;
@@ -181,16 +183,20 @@ body.night-mode {
   transition-duration: 0.4s;
 }
 
-.button1{
+.button1 {
   background-color: Transparent;
-  color: gray; 
+  color: gray;
   border: 2px solid gray;
 }
 
 .button1:hover {
-  background-color: #B4F8C8;
+  background-color: #b4f8c8;
   color: black;
-  border: 2px solid #B4F8C8;
+  border: 2px solid #b4f8c8;
+}
+
+.button1:active {
+  background-color: yellow;
 }
 
 .column {
@@ -216,4 +222,57 @@ body.night-mode {
   transition-duration: 0.4s;
 }
 
+.vibrate {
+  animation: var(--direction);
+  animation-duration: var(--duration);
+  animation-iteration-count: 8;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+}
 
+@keyframes shakeX {
+  10%,
+  90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+
+  20%,
+  80% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  30%,
+  50%,
+  70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  40%,
+  60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}
+
+@keyframes shakeY {
+  10%,
+  90% {
+    transform: translate3d(0,-1px, 0);
+  }
+
+  20%,
+  80% {
+    transform: translate3d(0, 2px, 0);
+  }
+
+  30%,
+  50%,
+  70% {
+    transform: translate3d(0, -4px, 0);
+  }
+
+  40%,
+  60% {
+    transform: translate3d(0, 4px, 0);
+  }
+}
