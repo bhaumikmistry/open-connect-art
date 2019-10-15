@@ -60,7 +60,6 @@ document.getElementsByClassName('button-main')[2].addEventListener('click', func
 
 
 document.getElementsByClassName('button-main')[3].addEventListener('click', function () {
-  this.style.backgroundColor = 'yellow';
   var squares = document.querySelectorAll('[title]');
   squares.forEach(element => {
     element.animate([
