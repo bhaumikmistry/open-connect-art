@@ -11,6 +11,12 @@ function clearContributor() {
   contributor.innerHTML = "";
 }
 
+if(typeof(Storage) !== "undefined") {
+  if(sessionStorage && sessionStorage.isRefreshButtonClicked){
+    document.getElementsByClassName('button-main')[4].style.backgroundColor = 'yellow';
+   }
+}
+
 clearContributor();
 
 for (var i = 0; i < columns.length; i++) {
@@ -73,4 +79,12 @@ document.getElementsByClassName('button-main')[3].addEventListener('click', func
       duration: 5000,
     })
   });
+})
+
+document.getElementsByClassName('button-main')[4].addEventListener('click', function () {
+  this.style.backgroundColor = 'yellow';
+  if(typeof(Storage) !== "undefined") {
+    sessionStorage.isRefreshButtonClicked = true;
+    document.location.reload();
+  }
 })
