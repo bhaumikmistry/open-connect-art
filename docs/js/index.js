@@ -59,6 +59,31 @@ document.getElementsByClassName('button-main')[2].addEventListener('click', func
 })
 
 
+document.getElementsByClassName('button-main')[0].addEventListener('click', function () {
+  this.style.backgroundColor = 'yellow';
+  var squares = document.querySelectorAll('[title]');
+
+  var randomRangeMax = 10;
+
+  squares.forEach(element => {
+    var random = Math.random() * randomRangeMax;
+
+    // Reset previous animation, if any
+
+    element.style.animation = 'none';
+    element.offsetHeight;
+    element.style.animation = null; 
+
+    // Roll the dice between a vertical or horizontal animation
+
+    if (random >= (randomRangeMax / 2)) {
+      element.className = 'shake-vertical';
+    } else {
+      element.className = 'shake-horizontal';
+    }
+  });
+})
+
 document.getElementsByClassName('button-main')[3].addEventListener('click', function () {
   this.style.backgroundColor = 'yellow';
   var squares = document.querySelectorAll('[title]');

@@ -242,6 +242,42 @@
             }
         }
 
+        .shake-vertical {
+            animation: shake-vertical 0.5s;
+        }
+
+        .shake-horizontal {
+            animation: shake-horizontal 0.5s;
+        }
+
+        @keyframes shake-vertical {
+            0% { transform: translate(1px, 1px); }
+            10% { transform: translate(-2px, -1px); }
+            20% { transform: translate(0px, -3px); }
+            30% { transform: translate(2px, 3px); }
+            40% { transform: translate(-1px, 1px); }
+            50% { transform: translate(2px, -1px); }
+            60% { transform: translate(1px, -3px); }
+            70% { transform: translate(1px, 3px); }
+            80% { transform: translate(-1px, -1px); }
+            90% { transform: translate(2px, 1px); }
+            100% { transform: translate(-2px, 1px); }
+        }
+
+        @keyframes shake-horizontal {
+            0% { transform: translate(1px, 1px); }
+            10% { transform: translate(-1px, -2px); }
+            20% { transform: translate(-3px, 0px); }
+            30% { transform: translate(3px, 2px); }
+            40% { transform: translate(1px, -1px); }
+            50% { transform: translate(-1px, 2px); }
+            60% { transform: translate(-3px, 1px); }
+            70% { transform: translate(3px, 1px); }
+            80% { transform: translate(-1px, -1px); }
+            90% { transform: translate(1px, 2px); }
+            100% { transform: translate(1px, -2px); }
+        }
+
         @media (max-width:500px) {
             .github-corner:hover .octo-arm {
                 animation: none
