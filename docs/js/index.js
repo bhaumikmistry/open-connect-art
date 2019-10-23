@@ -19,7 +19,7 @@ for (var i = 0; i < columns.length; i++) {
     var images = column.children;
     for (var j = 0; j < images.length; j++) {
       var image = images[j];
-      if (image.getAttribute('title') !== 'UNCLAIMED') {
+      if (image.getAttribute('title') !== `UNCLAIMED_${i}_${j + 1}`) {
         image.onmouseenter = (e) => changeContributor(e.target.getAttribute('title'));
         image.onmouseleave = (e) => clearContributor();
       }
