@@ -27,11 +27,5 @@ In order to contribute a tile to the canvas you'll have to create a [pull reques
 
 The goal of this project is to complete the canvas in highly respectful and fun manner. 
 
-## Contributors : 
-<a href="https://github.com/bhaumikmistry/open-connect-art/graphs/contributors">
-  <img src="https://contributors-img.firebaseapp.com/image?repo=bhaumikmistry/open-connect-art" />
-</a>
-
-
 ## License
 MIT
