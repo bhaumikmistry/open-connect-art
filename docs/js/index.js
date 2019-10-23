@@ -52,7 +52,7 @@ document.getElementsByClassName('button-main')[2].addEventListener('click', func
     't_180.png',
     't_270.png'
   ];
-  var squares = document.querySelectorAll('[title="UNCLAIMED"]');
+  var squares = document.querySelectorAll('[title^="UNCLAIMED"]');
   squares.forEach(element => {
     element.src = 'src/' + images[Math.floor(Math.random() * images.length)];
   });
