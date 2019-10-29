@@ -7,9 +7,9 @@ There are two way you can contribute to this project, adding your tiles to the p
 1. Create a fork of this project
 2. Clone the project:
 ``` 
-git clone https://github.com/<YOUR_GITHUB_USERNAME>/open connect-art.git
+git clone https://github.com/<YOUR_GITHUB_USERNAME>/open-connect-art.git
 ```
-3. cd open-pixel-art
+3. cd open-connect-art
 4. open index.html in chrome browser
 
 ## Contributing a tile

@@ -1,0 +1,278 @@
+* {
+  box-sizing: border-box;
+  outline: none;
+}
+
+.footer {
+  text-align: center;
+  padding: 32px;
+  position: absolute;
+  bottom: 5px;
+  right: 40%;
+}
+
+.button {
+  background-color: #4caf50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  text-align: center;
+  padding: 32px;
+}
+
+.row-parent {
+  display: -ms-flexbox; /* IE 10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE 10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+  margin: 0 auto;
+  height: 100%;
+}
+
+.row {
+  display: -ms-flexbox; /* IE 10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE 10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+  margin: 0 auto;
+}
+
+/* Create two equal columns that sits next to each other */
+.column {
+  -ms-flex: 8%; /* IE 10 */
+  flex: 8%;
+  max-width: 65px;
+  padding: 0 0px;
+}
+
+.column img {
+  margin-top: 0px;
+  vertical-align: middle;
+}
+
+/* for lighy mood */
+.column img:hover {
+  background-color: Aquamarine;
+}
+
+/* Style the buttons */
+.btn {
+  border: none;
+  outline: none;
+  padding: 0px 16px;
+  background-color: #f1f1f1;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.btn:hover {
+  background-color: #ddd;
+}
+
+.btn:active {
+  background-color: yellow;
+  color: white;
+}
+
+.image {
+  width: 50%;
+}
+
+/* Logo */
+
+.logo {
+  margin: auto;
+  width: 200px;
+  height: 200px;
+}
+
+@media (max-width: 768px) {
+  .logo {
+    margin: auto;
+    width: 100px;
+    height: 100px;
+  }
+}
+
+/* Code for night mode */
+.nightmode {
+  position: fixed;
+  top: 0;
+  padding: 15px 15px 10px 15px;
+  border: none;
+  text-align: center;
+  background: #333333;
+  font-size: 18px;
+  text-decoration: none;
+  color: white;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  outline: 0;
+  cursor: pointer;
+}
+
+.toggled {
+  background-color: yellow;
+}
+
+.row-parent.night-mode img {
+  filter: brightness(0) invert(1);
+}
+
+.row-parent.night-mode img:hover {
+  filter: none;
+  background-color: #ff80aa !important;
+}
+
+h1.night-mode {
+  color: #ffffff;
+}
+
+button.night-mode {
+  color: #333333;
+  background-color: white;
+}
+
+body.night-mode {
+  color: #fff;
+  background: #232732;
+}
+
+.nightmode:hover {
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.button-image {
+  height: 30px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  vertical-align: middle;
+}
+
+.ribbon {
+  position: absolute;
+  top: 0;
+  border: 0;
+  right: 0;
+}
+
+.menu-bar > #wrapperbutton {
+  text-align: center;
+  height: 60px;
+}
+
+.button-main {
+  width: 100px;
+  height: 40px;
+  border-radius: 4px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+.button1 {
+  background-color: Transparent;
+  color: gray;
+  border: 2px solid gray;
+}
+
+.button1:hover {
+  background-color: #b4f8c8;
+  color: black;
+  border: 2px solid #b4f8c8;
+}
+
+.button1:active {
+  background-color: yellow;
+}
+
+.column {
+  border-top: solid 5px rgb(125, 125, 125);
+  border-bottom: solid 5px rgb(125, 125, 125);
+}
+
+.column:last-child {
+  border-right: solid 5px rgb(125, 125, 125);
+}
+
+.column:first-child {
+  border-left: solid 5px rgb(125, 125, 125);
+}
+
+.contributor {
+  height: 50px;
+  text-align: center;
+  color: #f94a66;
+  font-size: 20px;
+  font-style: bold;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+.vibrate {
+  animation: var(--direction);
+  animation-duration: var(--duration);
+  animation-iteration-count: 8;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+}
+
+@keyframes shakeX {
+  10%,
+  90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+
+  20%,
+  80% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  30%,
+  50%,
+  70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  40%,
+  60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}
+
+@keyframes shakeY {
+  10%,
+  90% {
+    transform: translate3d(0,-1px, 0);
+  }
+
+  20%,
+  80% {
+    transform: translate3d(0, 2px, 0);
+  }
+
+  30%,
+  50%,
+  70% {
+    transform: translate3d(0, -4px, 0);
+  }
+
+  40%,
+  60% {
+    transform: translate3d(0, 4px, 0);
+  }
+}
