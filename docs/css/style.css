@@ -276,3 +276,15 @@ body.night-mode {
     transform: translate3d(0, 4px, 0);
   }
 }
+
+/* Code for the readme */
+object {
+  display: -ms-flexbox; /* IE 10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE 10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+  margin: 0 auto;
+  width: 900px;
+  height: 900px;
+}

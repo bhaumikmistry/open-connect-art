@@ -1,0 +1,28 @@
+{
+  "name": "open-connect-art",
+  "version": "1.0.0",
+  "description": "<img src=\"docs/src/openconnectart.png\" width=\"200\">",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "marked": "^0.7.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bhaumikmistry/open-connect-art.git"
+    
+  },
+  "author": "bhaumikmistry",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bhaumikmistry/open-connect-art/issues"
+  },
+  "homepage": "https://github.com/bhaumikmistry/open-connect-art#readme"
+}
